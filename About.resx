@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Letter" xml:space="preserve">
+    <value>Thư ngỏ</value>
+  </data>
+  <data name="Letter0" xml:space="preserve">
+    <value>Lời chào của lãnh đạo</value>
+  </data>
+  <data name="Letter1" xml:space="preserve">
+    <value>Kính gửi Qúi khách hàng.</value>
+  </data>
+  <data name="Letter2" xml:space="preserve">
+    <value>Trước hết, công ty chúng tôi xin trân trọng cảm ơn sự ủng hộ của quí khách hàng trong suốt 26 năm qua.</value>
+  </data>
+  <data name="Letter3" xml:space="preserve">
+    <value>Đến nay, công ty chúng tôi đã đạt được nhiều tiến bộ vượt bậc. Nhìn lại quãng đường đi qua, chúng tôi nhận ra rằng trong mọi thành công của công ty, đều có sự hợp tác của quí khách hàng.</value>
+  </data>
+  <data name="Letter4" xml:space="preserve">
+    <value>Chúng ta có thể nhắc tên những bạn hàng đã cùng với chúng ta xây dựng nên thương hiệu: Công ty TNHH Xây Dựng và Xử Lý Môi Trường Đại Minh: BIG C Việt Nam, Bitexco, Cảng Container Hiệp Phước, Cảng VICT Tân Thuận, Công ty cấp thoát nước Lâm Đồng, Bệnh viện Hội an, Công ty CP Du Lịch Kỳ Vân và rất nhiều khách hàng thân thiết nữa.</value>
+  </data>
+  <data name="Letter5" xml:space="preserve">
+    <value>Ngày nay, tiếp bước các bậc tiền bối, thế hệ mới của công ty chúng tôi vững tâm niệm một quan điểm: Chất lượng môi trường là tiên quyết.</value>
+  </data>
+  <data name="Letter6" xml:space="preserve">
+    <value>Chúng tôi xin cam kết, nếu được quí khách hàng – dù mới hay cũ – tin tưởng giao nhiệm vụ, sẽ tận tâm hoàn thành các dự án được giao vì Môi trường, Chất lượng và Tiến độ với chi phí hợp lý.</value>
+  </data>
+  <data name="Lettersign" xml:space="preserve">
+    <value>Thay mặt Ban TGĐ Công ty</value>
+  </data>
+  <data name="Lettersign1" xml:space="preserve">
+    <value>(Nguyễn Khải Minh)</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Giới thiệu sơ lược về công ty Damifa</value>
+  </data>
+  <data name="Summary0" xml:space="preserve">
+    <value>Lịch sử hình thành và phát triển</value>
+  </data>
+  <data name="Summary1" xml:space="preserve">
+    <value>DAMIFA, với kinh nghiệm 26 năm trong lĩnh vực xử lý nước, đã thực hiện thành công hơn 100 dự án lớn, nhỏ tại Việt Nam. Là doanh nghiệp tư nhân đi đầu trong lĩnh vực cấp thoát nước và xử lý môi trường.</value>
+  </data>
+  <data name="Summary2" xml:space="preserve">
+    <value>Năm 1992 - DAMIFACo., Ltd Công ty Đại Minh - DAMIFA Co.,Ltd thành lập từ năm 1992. DAMIFA Co.,LTD - Công ty TNHH Xây Dựng và Xử Lý Môi Trường ĐẠI Minh được chính thức thành lập năm 1992, Giấy phép thành lập số 2084/GP-UB, cho đến nay đã hình một đội ngũ có kinh nghiệm trong hoạt động thiết kế và thi công các công trình thuộc lĩnh vực cấp thoát nước, xử lý môi trường.</value>
+  </data>
+  <data name="Summary3" xml:space="preserve">
+    <value>Năm 1995 - DAMIFA là hội viên chính thức của Hội Cấp Thoát Nước Việt Nam (VWSA).</value>
+  </data>
+  <data name="Summary4" xml:space="preserve">
+    <value>Năm 1996 - DAMIFA là thành viên trong Hội đồng quản trị của công ty liên doanh IDE-DAMIFA(IDE ASIE) chuyên ngành tư vấn, thiết kế, cấp thoát nước và bảo vệ môi trường.</value>
+  </data>
+  <data name="Summary5" xml:space="preserve">
+    <value>Năm 1996 - 2000 DAMIFA đã ký kết các hợp đồng đại lý, hợp tác kinh doanh và nhận được hỗ trợ về mặt kỹ thuật cũng như về thiết bị từ các công ty Salmson, Eversoft, Dosatron, IDE Ingénierie… của Pháp và Châu Âu.</value>
+  </data>
+  <data name="Summary6" xml:space="preserve">
+    <value>Năm 2014 - DAMIFA được sát nhập vào công ty CP ICEI, và trở thành 1 thành viên của công ty ICEI.</value>
+  </data>
+</root>
